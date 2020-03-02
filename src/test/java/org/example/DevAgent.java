@@ -237,7 +237,7 @@ public class DevAgent {
         driver.findElement(By.xpath("//input[@id='otp_val']")).sendKeys("91752");
         Thread.sleep(5000);
         driver.findElement(By.xpath("//button[@class='btn btn-blue float-right fs-16 ml10 mb30'][contains(text(),'Next')]")).click();
-
+        Thread.sleep(5000);
     }
 
 
