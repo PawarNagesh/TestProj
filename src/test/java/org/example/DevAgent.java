@@ -202,7 +202,7 @@ public class DevAgent {
         Thread.sleep(4000);
         driver.findElement(By.xpath("//span[@id='profile_pic_select']")).click();
         Thread.sleep(8000);
-        driver.findElement(By.xpath("//div[@class='move']")).isDisplayed();
+        driver.   findElement(By.xpath("//div[@class='move']")).isDisplayed();
         Thread.sleep(3000);
         //Cancel button-Profile
         //driver.findElement(By.xpath("//button[@class='btn btn-pink']")).click();
@@ -237,8 +237,7 @@ public class DevAgent {
         driver.findElement(By.xpath("//input[@id='otp_val']")).sendKeys("91752");
         Thread.sleep(5000);
         driver.findElement(By.xpath("//button[@class='btn btn-blue float-right fs-16 ml10 mb30'][contains(text(),'Next')]")).click();
-        Thread.sleep(5000);
-        System.out.println("Third commit");
+
     }
 
 
