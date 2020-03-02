@@ -238,6 +238,7 @@ public class DevAgent {
         Thread.sleep(5000);
         driver.findElement(By.xpath("//button[@class='btn btn-blue float-right fs-16 ml10 mb30'][contains(text(),'Next')]")).click();
         Thread.sleep(5000);
+        System.out.println("Third commit");
     }
 
 
